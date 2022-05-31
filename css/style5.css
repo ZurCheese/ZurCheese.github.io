@@ -1,0 +1,245 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background-color: rgb(16, 29, 53);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.imglogo img
+{
+    width: 300px;
+    margin: 7px;
+    height: 55px;
+}
+
+header
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul 
+{
+    position: relative;
+    display: flex;
+}
+header ul li 
+{
+    position: relative;
+    list-style: none;
+    padding: 15px;
+}
+header ul li a 
+{
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0px 6px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+header ul li a:hover
+{
+    color: #24b9f2;
+}
+
+.msk-header
+{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.msk-header-title
+{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    text-shadow: 0 8px 24px rgb(26 201 218 / 56%);
+    background: -webkit-linear-gradient(#24b9f2,#58f0f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.msk-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.msk-title img
+{
+    width: 80%;
+    padding-top: 3rem;
+}
+
+.msk-header-text
+{
+    line-height: 26px;
+    width: 40%;
+    margin-top: 3rem;
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    font-family: "Lato",sans-serif;;
+}
+
+.msk-card-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 3rem;
+}
+
+.msk-card-container
+{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+.msk-card-item
+{
+    background-color: #132442;
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 0;
+    border-radius: 7px;
+    box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 50%);
+}
+
+.footer 
+{
+    margin-top: 150px;
+    box-sizing: border-box;
+    font-family:  "Lato",sans-serif;
+}
+
+.footerrow
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -5px;
+    box-sizing: border-box;
+}
+
+.footercol1
+{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.footerlogo
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerlogo img
+{
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+.textdpr
+{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.almtdpr 
+{
+    font-size: .8rem;
+    opacity: .7;
+    color: #fff;
+    margin-top: 16px;
+}
+
+.footercol2
+{
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+.footertitle
+{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #4bc8f5;
+    margin-bottom: 20px;
+}
+
+.footermenu
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    width: 97%;
+}
+
+.footermenulist
+{
+    margin-bottom: 20px;
+}
+
+.footermenulist a 
+{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-family:  "Lato",sans-serif;
+}
+
+.footercopyr
+{
+    justify-content: center;
+    font-size: 14px;
+    opacity: .7;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.footercopyr p
+{
+    opacity: .7;
+    color: #fff;
+    font-family:  "Lato",sans-serif;
+}
+
+.blue
+{
+    color: #24b9f2;
+}
